@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~beercss/dist/cdn/beer.min.css';
+
+/* SCSS HEX */
+$light-coral: #f08080ff;
+$congo-pink: #f4978eff;
+$melon: #f8ad9dff;
+$apricot: #fbc4abff;
+$peach-puff: #ffdab9ff;
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #f08080ff, #f4978eff, #f8ad9dff, #fbc4abff, #ffdab9ff);
+$gradient-right: linear-gradient(90deg, #f08080ff, #f4978eff, #f8ad9dff, #fbc4abff, #ffdab9ff);
+$gradient-bottom: linear-gradient(180deg, #f08080ff, #f4978eff, #f8ad9dff, #fbc4abff, #ffdab9ff);
+$gradient-left: linear-gradient(270deg, #f08080ff, #f4978eff, #f8ad9dff, #fbc4abff, #ffdab9ff);
+$gradient-top-right: linear-gradient(45deg, #f08080ff, #f4978eff, #f8ad9dff, #fbc4abff, #ffdab9ff);
+$gradient-bottom-right: linear-gradient(135deg, #f08080ff, #f4978eff, #f8ad9dff, #fbc4abff, #ffdab9ff);
+$gradient-top-left: linear-gradient(225deg, #f08080ff, #f4978eff, #f8ad9dff, #fbc4abff, #ffdab9ff);
+$gradient-bottom-left: linear-gradient(315deg, #f08080ff, #f4978eff, #f8ad9dff, #fbc4abff, #ffdab9ff);
+$gradient-radial: radial-gradient(#f08080ff, #f4978eff, #f8ad9dff, #fbc4abff, #ffdab9ff);
+
+body {
+    background-color: $apricot;
+}
